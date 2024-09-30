@@ -1,6 +1,6 @@
 <center><h2>Installation for PoissonRecon only</h2></center>
 <LI> <i>sudo apt-get install zlib1g-dev libpng-dev libjpeg-dev</i> (If necessary)
-<LI> <i>make poissonrecon</i>
+<LI> <i>make poissonrecon</i> (Takes 2-5 mins)
 <center><h2>Running</h2></center>
 <LI> <i>./Bin/Linux/PoissonRecon --in {path_to_oriented_pointcloud.ply} --out {path_to_output.ply} --grid {path_to_output.grid} --depth {depth}</i>
 <center><h2>Visualization</h2></center>
