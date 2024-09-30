@@ -2,10 +2,10 @@
 <LI> <i>sudo apt-get install zlib1g-dev libpng-dev libjpeg-dev</i> (If necessary)
 <LI> <i>make poissonrecon</i> (Takes 2-5 mins)
 <center><h2>Running PSR on single file</h2></center>
-<LI> <i>./Bin/Linux/PoissonRecon --in {path_to_oriented_pointcloud.ply} --out {path_to_output.ply} --grid {path_to_output.grid} --depth {depth}</i>
+<LI> <i>./Bin/Linux/PoissonRecon --in {path_to_oriented_pointcloud.ply} --grid {path_to_output.grid} --depth {depth}  [--out {path_to_output.ply}](to output mesh)</i>
 <LI> Output Grid will have 2^{depth} resolution.
 <center><h2>Visualize grid</h2></center>
-<LI> <i>python -m viewer {path_to_grid_file}</i>
+<LI> <i>python -m viewer {path_to_grid_file} [--mesh-file {path_to_mesh.ply}]</i>
 <hr>
 <center><h2>Adaptive Multigrid Solvers (Version 18.20)</h2></center>
 <center>
